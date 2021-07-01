@@ -74,7 +74,6 @@ double adapt_old ( double func(double), double leftEndPt, double rightEndPt, dou
     return adapt24_old ( func , leftEndPt , rightEndPt ,absAcc , relAcc , second_funcVal , third_funcVal , numOfRecursions, integrationError ) ;
 }
 
-/*
 double integrate( double func(double), double leftEndPt, double rightEndPt, double absAcc, double relAcc ){
     if (isinf(-leftEndPt)){
         if (isinf(rightEndPt)){
@@ -126,4 +125,3 @@ double integrate_old( double func(double), double leftEndPt, double rightEndPt, 
         return adapt_old(func, leftEndPt, rightEndPt, absAcc, relAcc, integrationError);
     }
 }
-*/
